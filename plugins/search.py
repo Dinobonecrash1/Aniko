@@ -69,7 +69,7 @@ async def search(client: Client, message: Message):
             bb = i.animeid
 
         ty = anime.get_details(animeid=bb)
-        x = f'https://ww1.gogoanime2.org/watch/{bb}/1'
+        x = f'https://ww3.gogoanimes.fi/{bb}/1'
         print(
             f'<<INFO>> [Get Search:{message.chat.id}] {datetime.now()} {bb}\nUsername: {message.from_user.username}')
         msg = f'<< INFO >> [Plugins: Search: By {message.chat.id}] {datetime.now()} {bb}\nUsername: @{message.from_user.username}'
